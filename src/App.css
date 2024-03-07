@@ -1,0 +1,16 @@
+:root {
+  --orange: #1aff8c;
+  --pale-orange: #19fff0;
+
+  --very-dark-blue: #382121;
+  --dark-grayish-blue: #371773;
+  --grayish-blue: #3824bf;
+  --light-grayish-blue: #dfa4fa;
+  --white: #ffffffde;
+  --black: #000000;
+}
+
+#root {
+  min-width: 320px;
+  min-height: 100vh;
+}
