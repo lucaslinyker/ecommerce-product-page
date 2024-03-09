@@ -7,37 +7,37 @@ import avatar from "../assets/images/image-avatar.png";
 function Header() {
   return (
     <>
-      <header>
-        <a href="./">
-          <img src={logo} alt="Snearkers logo" />
+      <header className="header">
+        <a href="./" className="logo-link">
+          <img src={logo} alt="Snearkers logo" className="logo-img" />
         </a>
 
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Collections</a>
+        <nav className="nav">
+          <ul className="nav-list">
+            <li className="nav-item">
+              <a href="#" className="nav-link">Collections</a>
             </li>
-            <li>
-              <a href="#">Men</a>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Men</a>
             </li>
-            <li>
-              <a href="#">Women</a>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Women</a>
             </li>
-            <li>
-              <a href="#">About</a>
+            <li className="nav-item">
+              <a href="#" className="nav-link">About</a>
             </li>
-            <li>
-              <a href="#">Contact</a>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Contact</a>
             </li>
           </ul>
         </nav>
 
-        <a href="#">
-          <img src={iconCart} alt="Icon of a shopping-cart" />
-          <span>3</span>
+        <a href="#" className="cart-link">
+          <img src={iconCart} alt="Icon of a shopping-cart" className="cart-icon" />
+          <span className="cart-count">3</span>
         </a>
-        <a href="#">
-          <img src={avatar} alt="Avatar of men" />
+        <a href="#" className="avatar-link">
+          <img src={avatar} alt="Avatar of men" className="avatar-img" />
         </a>
       </header>
     </>
